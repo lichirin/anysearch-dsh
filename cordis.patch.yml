@@ -1,0 +1,10 @@
+- id: web
+  config:
+    searchProvider: anysearch
+    fetchProvider: anysearch
+
+- insert:
+    - id: web-search-anysearch
+      name: '@anysearch/anysearch-dsh'
+      config:
+        apiKeyEnv: ANYSEARCH_API_KEY

@@ -6,7 +6,7 @@
   <p><a href="README.md">English</a> | <strong>简体中文</strong></p>
 </div>
 
-## 本副本（DeepSeek Harness 0.1.7-rc.1）
+## 本副本（DeepSeek Harness 0.1.7-rc.2）
 
 功能：把 AnySearch 接成网页搜索和网页抓取。平时仍用原生的 `web_search`、`web_fetch`。另外多三个工具：`anysearch_capabilities`、`anysearch_search`、`anysearch_batch_search`。
 

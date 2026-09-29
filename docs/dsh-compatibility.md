@@ -1,5 +1,10 @@
 # DSH compatibility
 
+This local copy, `0.1.6-dsh0.1.7.2`, also accepts DeepSeek Harness `0.1.7-rc.1`
+and `0.1.7-rc.2`. The five DSH peer ranges include `>=0.1.7-rc.1 <=0.1.7-rc.2`.
+The provider, credential, and tool calls used by this package still match those
+releases.
+
 This source tree targets every currently installable published DSH release listed
 below. These changes are not yet published: npm `@anysearch/anysearch-dsh@0.1.5`
 still declares the older peer dependency range reported in issue #12.

@@ -6,15 +6,16 @@
   <p><a href="README.md">English</a> | <strong>简体中文</strong></p>
 </div>
 
-## 本副本（DeepSeek Harness 0.1.7-rc.2）
+## 本副本（DeepSeek Harness 0.2.0-rc.1 / 0.2.0-rc.2）
+
+本地适配版，版本号 `0.1.6-dsh0.2.0.2`：只把 `peerDependencies` 中 5 个 `@deepseek-ai/dsh-*` 的区间扩展到 `>=0.2.0-rc.1 <=0.2.0-rc.2`，`lib/` 代码与上游 v0.1.6 逐字节一致（未改任何 JS）。依据与验证记录见工作区根目录的《anysearch-dsh-适配说明.md》。
 
 功能：把 AnySearch 接成网页搜索和网页抓取。平时仍用原生的 `web_search`、`web_fetch`。另外多三个工具：`anysearch_capabilities`、`anysearch_search`、`anysearch_batch_search`。
 
-用法：
+用法（本机 profile 是 `desktop`，不是 `web`；需先在菜单栏安装 dsh 命令）：
 
 ```sh
-dsh plugin --profile web add "link:<克隆下来的目录>"
-dsh web
+dsh plugin --profile desktop add "link:D:\deepseek harness DSH workspace\anysearch-dsh"
 ```
 
 密钥名是 `ANYSEARCH_API_KEY`。不填时走匿名额度。来源和许可证见 [来源说明.md](来源说明.md)。
